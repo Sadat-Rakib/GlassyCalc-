@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('a dark industrial wood desk.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(19px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#display {
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.equals {
+    grid-column: span 2;
+    background: #0191aa;
+    color: #fff;
+}
+
+.equals:hover {
+    background: #759a9b;
+}
+
+.zero {
+    grid-column: span 2;
+}
