@@ -28,3 +28,8 @@ Welcome to **GlassyCalc**, a beautiful and functional calculator built with a **
 📜 License
 This project is licensed under the MIT License
 
+Images :- 
+
+![image](https://github.com/user-attachments/assets/b8a7ad01-7b25-43aa-b4ea-478160902a87)
+
+
